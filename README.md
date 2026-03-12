@@ -1,65 +1,20 @@
-# Stukent Stock Predictor
+# Stukent Personal Finance Stock Predictor
 
-version 1.2.1
+A web application designed to help predict stock prices for the Stukent Personal Finance simulation by matching current simulation prices to real-world historical stock data from 2008-2018.
 
-**NOTE:** (1/10/24) This project has been shut down for about two years now. Many people have been reaching out to me asking how to set this up or how to get the data. I'm sorry, but I don't have the time to respond to everyone. I can't explain how to set the project up for yourself, or how I got the data.
+## Features
+- **Price Matching**: Search for a specific stock price to find the exact simulation date.
+- **Tolerance Highlighting**: Automatically highlights exact matches (within $0.01), close matches (within $0.05), and near matches (within $0.10).
+- **Interactive Centered Charts**: View a 10-day window (5 days before, 5 days after) of the selected date to see the trend of all available companies.
+- **Custom Tooltips**: Hover over the chart to see the exact real-world date and specific prices for all companies.
+- **Tracked Companies**: A quick reference guide for all companies in the simulation and their real-world equivalents.
 
-## What is this?
+## AI Generation Note
+This project was built entirely using **Gemini 3.1 Pro** via Google AI Studio. 
 
-This is a stock prediction application I made for my financial literacy class. We use the Stukent Personal Finance simulation, and it has a feature which allows you to invest.
+Check out my other AI-generated projects:
+- Project X - Built with **Claude Opus 4.6 Thinking**
+- Project Y - Built with **GPT-5.4-High**
 
-The companies in the simulation have fake names, but they correlate with the stock history of actual companies. If you can find them, you can "predict" what stock values they will have in the future and get rich.
-
-Some of them were quite obvious, like Swoosh Athletics = Nike and Corner Drug Store = CVS. But there are still a few companies I haven't been able to trace back to their real world equivalent.
-
-## How do I use this?
-
-1. Go to <https://stukent-stock-predictor.web.app/>
-2. Look at the predicted stock prices
-3. Go to Money Management > Investments in Stukent
-4. Invest accordingly
-
-## Currently Tracked Companies
-
-🛢 Exin Petrolium (EXP) | *IRL: Exxon Mobil (XOM)*
-
-🛒 Supermart (SPM) | *IRL: Walmart (WMT)*
-
-💊 Corner Drug Store, Inc. (CDS) | *IRL: CVS (CVS)*
-
-💻 Superior Purchase (SP) | *IRL: Best Buy (BBY)*
-
-👟 Swoosh Athletics (SA) | *IRL: Nike (NKE)*
-
-💰 Big Bank of US (BBUS) | *IRL: Bank of America (BAC)*
-
-✈ US Flights (SUF) | *IRL: American Airlines (AAL)*
-
-🚗 Hank Auto Co. (HAC) | *IRL: Ford (F)*
-
-## Change History
-
-- 1.0.0 - Sep 10, 2021
-    - Published first version of project 🎉
-- 1.0.1 - Sep 10, 2021
-    - Added Hank Auto Co. (Ford) 🚗
-- 1.0.2 - Sep 11, 2021
-    - Added Superior Purchase (Best Buy) 💻
-- 1.0.3 - Sep 11, 2021
-    - Added style rules for smaller screens
-- 1.1.0 - Sep 12, 2021
-    - Added line chart
-- 1.1.1 - Sep 12, 2021
-    - Added hidden feature to show percent change per day 👀
-- 1.2.0 - Sep 15, 2021
-    - Fixed error with data not lining up if a day is missing
-    - Added a version tracker
-- 1.2.1 - Sep 24, 2021
-    - Updated US Flights (American Airlines) stock data ✈
-    - Added a disclaimer about usage of this website
-    - Fixed storing of data to incorrect variable
-        - Not sure how it was working before, but now it works *intentionally*
-
-## Important Notes
-
-This will not work for every iteration of the Stukent Stock Predictor. You can still see which companies are which, but your simulation likely starts on a different date.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
