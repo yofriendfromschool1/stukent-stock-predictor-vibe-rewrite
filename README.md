@@ -11,10 +11,7 @@ A web application designed to help predict stock prices for the Stukent Personal
 
 ## AI Generation Note
 This project was built entirely using **Gemini 3.1 Pro** via Google AI Studio. 
-
-Check out my other AI-generated projects:
-- Project X - Built with **Claude Opus 4.6 Thinking**
-- Project Y - Built with **GPT-5.4-High**
+Also other 2 models, **Claude Opus 4.6 Thinking** **GPT-5.4-High**
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
