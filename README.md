@@ -10,8 +10,8 @@ A web application designed to help predict stock prices for the Stukent Personal
 - **Tracked Companies**: A quick reference guide for all companies in the simulation and their real-world equivalents.
 
 ## AI Generation Note
-This project was built entirely using **Gemini 3.1 Pro** via Google AI Studio. 
-Also other 2 models, **Claude Opus 4.6 Thinking** **GPT-5.4-High**
+This project was built entirely using [**Gemini 3.1 Pro**](https://gemini-stukent-predictor.netlify.app/) via Google AI Studio. 
+Also other 2 models, [**Claude Opus 4.6 Thinking**](https://claude-stukent-predictor.netlify.app/) [**GPT-5.4-High**](https://gpt-stukent-predictor.netlify.app/)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
