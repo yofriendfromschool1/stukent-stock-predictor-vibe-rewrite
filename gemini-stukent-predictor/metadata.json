@@ -1,0 +1,5 @@
+{
+  "name": "Stukent Stock Predictor",
+  "description": "A tool to predict stock prices in the Stukent Personal Finance simulation based on historical real-world data.",
+  "requestFramePermissions": []
+}
